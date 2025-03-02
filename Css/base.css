@@ -1694,6 +1694,10 @@
       .navbar-toggler {
           margin-right: 0;
       }
+
+      .navbar-nav {
+        display: block;
+      }
   
       .rowTopIcons p {
           font-size: 20px;
@@ -1776,12 +1780,6 @@
   }
 
   @media screen and (max-width: 409.9px) {
-    a#nav-link.nav-link.numberDiv {
-    font-size: 16px !important;
-    padding-left: 0 !important;
-    padding-right: 10px !important;
-    }
-
     .contHero {
         padding-top: 95px;
     }
