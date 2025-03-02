@@ -1437,7 +1437,10 @@
       .navbar-nav {
           display: flex;
           flex-direction: row;
-          margin-left: -158px;
+        }
+
+        .navbar-collapse {
+            margin-left: 0;
         }
   
       a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus, a#nav-link.nav-link.numberDiv:active, a#nav-link.nav-link.numberDiv:focus {
@@ -1546,10 +1549,6 @@
   
       .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
           padding-bottom: 20px;
-      }
-
-      .navbar-nav {
-        margin-left: -185px;
       }
   }
   
@@ -1779,6 +1778,8 @@
   @media screen and (max-width: 409.9px) {
     a#nav-link.nav-link.numberDiv {
     font-size: 16px !important;
+    padding-left: 0 !important;
+    padding-right: 10px !important;
     }
 
     .contHero {
@@ -1818,13 +1819,6 @@
     }
   }
   
-  @media screen and (min-width: 359px) and (max-width: 378px) {
-      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
-          padding-left: 18px !important;
-          padding-right: 18px !important;
-      }
-  }
-  
   @media screen and (max-width: 354px) {
        h1.h1First {
           font-size: 16px !important;
@@ -1842,6 +1836,9 @@
     .contHero h1 {
         font-size: 35px;
   }
+}
+
+@media screen and (max-width: 328.9px) {
 }
   
   @media screen and (max-width: 320px) {
