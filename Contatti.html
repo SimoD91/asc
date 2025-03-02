@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta name="description" content="ASC | Advice Security Cloud" />
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-toggle.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="Css/base.css" rel="stylesheet" />
+    <link href="Css/contatti.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/GestioneMasterPage.js"></script>
+    <title>ASC | Contatti</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <script>
+        var _cookieConsent = {
+            resources: [
+                //personalizzazioni tasti cookies
+                { category: 'necessary', type: 'script' },
+                { category: 'statistics', type: 'script' },
+                { category: 'preferences', type: 'script' },
+                { category: 'marketing', type: 'iframe' },
+            ],
+
+            privacyPolicyUrl: 'Privacy.html', //link testuale
+
+            theme: {
+                //personalizzazione finestra, stile
+                borderSize: 1,
+                spacing: 10,
+                radius: 20,
+                bannerWidth: 230,
+                fontSize: 14,
+                lineHeight: 20,
+                headerFontSize: 22,
+                headerLineHeight: 28,
+                colors: [
+                 '#001d2e', // Colore di sfondo
+                 'white', // Colore testo
+                 '#FFF', // Colore link testuale e pulsanti accetta tutto/salva-Colore enabled pulsantini cookies e pallino not enabled
+                 '#001d2e', // Colore testo pulsanti accetta tutto/salva
+                 '#dfdfdf', // Colore hover pulsanti accetta tutto/salva-Colore hover enabled pulsantini cookies
+                 '#aec90b', // Colore pallino tasto necessary
+                 '#6c757dc9', // Colore sfondo pulsantini cookies not enabled/Bordi
+                 '#98aab4', // Colore hover pulsantini cookies not enabled
+                 '#aec90b', // Colore pallino pulsantini cookies enabled
+                ],
+            },
+
+            translations: {
+                //gestione cambio lingua
+                'message': {
+                    bannerTitle: 'Questo sito utilizza i cookies',
+                    bannerDescription: 'Usiamo i cookies per migliorare la tua esperienza di navigazione. Scegli quali tipologie di cookies ci permetti di utilizzare.',
+                    bannerOpenPrivacyPolicy: 'Vai alla policy',
+                    save: 'Salva',
+                    acceptAll: 'Accetta Tutto',
+                    necessary: 'Necessari',
+                    marketing: 'Marketing',
+                    preferences: 'Preferenze',
+                    statistics: 'Statistici',
+                    unclassified: 'Non classificati'
+                },
+            },
+        };
+    </script>
+    <script src="Scripts/cookieconsent.js"></script>
+    <script>
+        $(document).ready(function () {
+            CaricaMasterPage();
+        });
+    </script>
+<script>
+    function sendMail(event) {
+        event.preventDefault();
+        let name = document.querySelector('[name="name"]').value;
+        let email = document.querySelector('[name="email"]').value;
+        let message = document.querySelector('[name="message"]').value;
+        
+        if (!name || !email || !message) {
+            alert('Per favore, completa tutti i campi obbligatori.');
+            return;
+        }
+        
+        let subject = encodeURIComponent('Richiesta di contatto');
+        let body = encodeURIComponent(`Nome: ${name}\nEmail: ${email}\nMessaggio: ${message}`);
+        
+        window.location.href = `mailto:info@example.test?subject=${subject}&body=${body}`;
+    }
+</script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="HeaderContainer"></div>
+
+    <div class="containerContatti">
+        <div class="contHero">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                    <h1>Servizio di risposta e intervento rapido</h1>
+                    <p>
+                        per risolvere tempestivamente
+                        qualsiasi problema informatico
+                    </p>
+                    <a type="button" href="https://maps.app.goo.gl/g4RhrhW7MCx7erPu5" target="_blank" class="button">Scopri dove siamo</a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+                    <div class="contImgAzienda">
+                        <img src="Images/immagine_contatti.jpg" alt="img" class="imgContatti">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerBlueContatti">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                    <p>
+                        Servizio di risposta e intervento rapido ed efficiente,
+                        ottimizzato per risolvere tempestivamente qualsiasi
+                        problema informatico del cliente.
+                        <br />
+                        <br />
+                        Grazie a un team di esperti sempre disponibile e a
+                        strumenti avanzati di monitoraggio e diagnostica,
+                        siamo in grado di identificare e risolvere anomalie
+                        con velocità, minimizzando i tempi di inattività
+                        e garantendo la continuità delle attività aziendali.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 colArrow">
+                            <img src="Images/arrow.png" alt="img" class="arrow">
+                        </div>
+                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-6">
+                            <div class="wrap-contact100">
+                                <form class="contact100-form validate-form">
+                                    <span class="contact100-form-title">
+                                        CONTATTACI
+                                    </span>
+                                    <div class="wrap-input100 validate-input" data-validate="Il nome è obbligatorio">
+                                        <input class="input100" type="text" name="name" placeholder="*Nome">
+                                        <span class="focus-input100-1"></span>
+                                        <span class="focus-input100-2"></span>
+                                    </div>
+                                    <div class="wrap-input100 validate-input" data-validate="Il cognome è obbligatorio">
+                                        <input class="input100" type="text" name="name" placeholder="*Cognome">
+                                        <span class="focus-input100-1"></span>
+                                        <span class="focus-input100-2"></span>
+                                    </div>
+                                    <div class="wrap-input100 validate-input" data-validate="Inseire una mail valida: ex@abc.xyz">
+                                        <input class="input100" type="text" name="email" placeholder="*Email">
+                                        <span class="focus-input100-1"></span>
+                                        <span class="focus-input100-2"></span>
+                                    </div>
+                                    <div class="wrap-input100 validate-input" data-validate="Il messaggio è obbligatorio">
+                                        <textarea class="input100 inputTextArea" name="message"></textarea>
+                                        <span class="focus-input100-1"></span>
+                                        <span class="focus-input100-2"></span>
+                                    </div>
+                                    <div class="container-contact100-form-btn">
+                                        <button onclick="sendMail(event)" class="contact100-form-btn">
+                                            INVIA
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerWhiteContatti">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d51921288.21212948!2d-49.7148765!3d28.6331952!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQwJzIxLjgiTiAzOcKwMzInNTEuNCJX!5e1!3m2!1sit!2sit!4v1740594283284!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- Footer -->
+    <div id="FooterContainer"></div>
+</body>
+</html>

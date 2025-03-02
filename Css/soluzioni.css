@@ -1,0 +1,625 @@
+﻿.containerSoluzioni {
+    background-color: #001d2e;
+    padding-bottom: 100px;
+}
+
+.contHeroSoluzioni h1 {
+    max-width: 400px;
+}
+
+.contImgSoluzioni {
+    text-align: end;
+}
+
+.imgSoluzioni {
+    max-width: 100%;
+    box-shadow: -1px 2px 3px black;
+}
+
+.containerWhiteSoluzioni {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+.containerWhiteSoluzioni h1 {
+    font-weight: 300;
+    font-size: 55px;
+}
+
+.containerWhiteSoluzioni p {
+    font-weight: 300;
+}
+
+.colBlueSoluzioni {
+    background-color: #001d2e;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    display: flex;
+}
+
+.colGreySoluzioni {
+    background: linear-gradient(200deg, rgba(50, 50, 50, 1) 0%, rgba(10, 10, 10, 1) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    display: flex;
+}
+
+#soluzioni {
+    scroll-margin-top: 150px;
+}
+
+.iconaSoluzioneBig1 {
+    max-width: 120%;
+    position: relative;
+    top: -35%;
+    left: -55%;
+}
+
+.iconaSoluzioneBig2 {
+    max-width: 120%;
+    position: relative;
+    top: -35%;
+    left: -55%;
+}
+
+.iconaSoluzioneBig3 {
+    max-width: 120%;
+    position: relative;
+    top: -35%;
+    left: -55%;
+}
+
+.iconaSoluzioneBig4 {
+    max-width: 120%;
+    position: relative;
+    top: -35%;
+    left: -55%;
+}
+
+@media screen and (max-width: 2264px) {
+    .iconaSoluzioneBig2 {
+        max-width: 120%;
+        position: relative;
+        top: -27%;
+        left: -55%;
+    }
+}
+
+@media screen and (max-width: 2174px) {
+    .iconaSoluzioneBig4 {
+        top: -27%;
+    }
+}
+
+@media screen and (max-width: 2015px) {
+    .containerWhiteSoluzioni {
+        font-size: 27px;
+    }
+
+    .iconaSoluzioneBig2 {
+        max-width: 120%;
+        position: relative;
+        top: -27%;
+        left: -55%;
+    }
+
+    .iconaSoluzioneBig4 {
+        top: -30%;
+    }
+}
+
+@media screen and (min-width: 1661px) and (max-width: 2000px) {
+    .contHeroSoluzioni h1 {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 1950px) {
+    .iconaSoluzioneBig4 {
+        max-width: 120%;
+        position: relative;
+        top: -27%;
+        left: -55%;
+    }
+}
+
+@media screen and (max-width: 1812px) {
+    .iconaSoluzioneBig1 {
+        max-width: 120%;
+        position: relative;
+        top: -27%;
+        left: -55%;
+    }
+}
+
+@media screen and (max-width: 1784px) {
+    .iconaSoluzioneBig3 {
+        top: -28%;
+    }
+}
+
+@media screen and (max-width: 1783px) {
+     .iconaSoluzioneBig2 {
+        max-width: 120%;
+        position: relative;
+        top: -24%;
+        left: -55%;
+    }
+}
+
+@media screen and (max-width: 1710px) {
+    .containerWhiteSoluzioni {
+        font-size: 25px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .iconaSoluzioneBig1 {
+        max-width: 100%;
+        position: relative;
+        top: -33%;
+        left: -55%;
+    }
+
+    .iconaSoluzioneBig2 {
+        max-width: 100%;
+        position: relative;
+        top: -34%;
+        left: -55%;
+    }
+
+    .iconaSoluzioneBig3 {
+        max-width: 100%;
+        top: -40%;
+    }
+
+    .iconaSoluzioneBig4 {
+        max-width: 100%;
+        top: -34%;
+    }
+}
+
+@media screen and (max-width: 1708px) {
+    .iconaSoluzioneBig3 {
+        top: -35%;
+    }
+}
+
+@media screen and (min-width: 1449px) and (max-width: 1660px) {
+    .contHeroSoluzioni h1 {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+    .iconaSoluzioneBig2 {
+        max-width: 100%;
+        position: relative;
+        top: -27%;
+        left: -55%;
+    }
+
+    .iconaSoluzioneBig3 {
+        max-width: 100%;
+        top: -32%;
+    }
+
+    .iconaSoluzioneBig4 {
+        max-width: 100%;
+        top: -32%;
+    }
+}
+
+@media screen and (max-width: 1606px) {
+    .containerSoluzioni {
+        padding-bottom: 25px;
+    }
+
+    .colBlueSoluzioni {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .containerWhiteSoluzioni {
+        margin-bottom: 60px;
+    }
+
+    .containerWhiteSoluzioni h1 {
+        font-size: 45px;
+    }
+
+    .containerWhiteSoluzioni p {
+        font-size: 20px;
+    }
+
+    .iconaSoluzioneBig1 {
+        top: -48%;
+    }
+
+    .iconaSoluzioneBig2 {
+        top: -40%;
+    }
+
+    .iconaSoluzioneBig3 {
+        top: -46%;
+    }
+
+    .iconaSoluzioneBig4 {
+        top: -46%;
+    }
+
+    #soluzioni {
+        scroll-margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1594.9px) {
+    .iconaSoluzioneBig4 {
+        top: -39%;
+    }
+}
+
+@media screen and (max-width: 1498.9px) {
+    .iconaSoluzioneBig1 {
+       top: -40%;
+   }
+}
+
+@media screen and (max-width: 1453.9px) {
+    .iconaSoluzioneBig3 {
+       top: -40%;
+   }
+}
+
+@media screen and (max-width: 1440px) {
+     .iconaSoluzioneBig2 {
+        top: -40%;
+    }
+}
+
+@media screen and (max-width: 1433px) {
+     .iconaSoluzioneBig1 {
+        top: -40%;
+    }
+}
+
+@media screen and (max-width: 1392.9px) {
+    .iconaSoluzioneBig2 {
+        top: -35%;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .colBlueSoluzioni, .colGreySoluzioni {
+        padding-right: 50px;
+    }
+
+    .containerWhiteSoluzioni {
+        font-size: 20px;
+    }
+
+     .iconaSoluzioneBig1, .iconaSoluzioneBig2 {
+        top: -38%;
+    }
+
+     .iconaSoluzioneBig3 {
+        top: -44%;
+    }
+
+     .iconaSoluzioneBig4 {
+        top: -38%;
+    }
+}
+
+@media screen and (max-width: 1354px) {
+     .iconaSoluzioneBig3 {
+        top: -39%;
+    }
+}
+
+@media screen and (max-width: 1292px) {
+     .iconaSoluzioneBig2 {
+        top: -33%;
+    }
+}
+
+@media screen and (max-width: 1236px) {
+    .iconaSoluzioneBig3 {
+        top: -37%;
+    }
+
+     .iconaSoluzioneBig4 {
+        top: -33%;
+    }
+}
+
+@media screen and (max-width: 1134px) {
+     .iconaSoluzioneBig1 {
+        top: -32%;
+    }
+}
+
+@media screen and (max-width: 1113px) {
+    .iconaSoluzioneBig3 {
+        top: -33%;
+    }
+}
+
+@media screen and (max-width: 1112px) {
+     .iconaSoluzioneBig2 {
+        top: -28%;
+    }
+}
+
+@media screen and (max-width: 1081px) {
+    .iconaSoluzioneBig4 {
+        top: -31%;
+    }
+
+    .containerSoluzioni {
+        padding-bottom: 25px;
+    }
+
+    .containerGrey h1 {
+        padding-bottom: 20px;
+    }
+
+    .colBlueSoluzioni {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .containerWhiteSoluzioni {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1056px) {
+    .iconaSoluzioneBig4 {
+        top: -27%;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .containerWhiteSoluzioni {
+        font-size: 17px;
+    }
+
+    .containerWhiteSoluzioni h1 {
+        font-size: 40px;
+    }
+
+     .iconaSoluzioneBig1 {
+        top: -38%;
+    }
+
+     .iconaSoluzioneBig2 {
+        top: -34%;
+    }
+
+     .iconaSoluzioneBig3 {
+        top: -38%;
+    }
+
+     .iconaSoluzioneBig4 {
+        top: -33%;
+    }
+}
+
+@media screen and (max-width: 1014px) {
+    .iconaSoluzioneBig1 {
+        top: -34%;
+    }
+
+    .iconaSoluzioneBig2 {
+        top: -29%;
+    }
+}
+
+@media screen and (max-width: 1011.9px) {
+    .iconaSoluzioneBig2 {
+        top: -25%;
+    }
+}
+
+@media screen and (max-width: 997.9px) {
+    .iconaSoluzioneBig2 {
+        top: -30%;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+     .containerWhiteSoluzioni {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+     .iconaSoluzioneBig1 {
+        top: -40%;
+    }
+
+     .iconaSoluzioneBig3 {
+        top: -40%;
+    }
+}
+
+@media screen and (max-width: 957px) {
+     .iconaSoluzioneBig1 {
+        top: -34%;
+    }
+}
+
+@media screen and (max-width: 923px) {
+     .iconaSoluzioneBig3 {
+        top: -35%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .iconaSoluzioneBig2 {
+        top: -30%;
+    }
+}
+
+@media screen and (max-width: 831px) {
+    .iconaSoluzioneBig4 {
+        top: -30%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contHeroSoluzioni h1 {
+        max-width: 100%;
+    }
+
+     .iconaSoluzioneBig1 {
+        max-width: 180%;
+    }
+
+     .iconaSoluzioneBig2 {
+        max-width: 180%;
+    }
+
+     .iconaSoluzioneBig3 {
+        max-width: 180%;
+    }
+
+     .iconaSoluzioneBig4 {
+        max-width: 180%;
+    }
+
+    .containerWhiteSoluzioni {
+        font-size: 15px;
+    }
+
+    .containerWhiteSoluzioni h1 {
+        font-size: 30px;
+    }
+
+    .rowTopIcons {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .iconDiv, .iconDiv p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .iconaSoluzioneBig2 {
+        top: -27%;
+    }
+}
+
+@media screen and (max-width: 643.9px) {
+    .iconaSoluzioneBig1 {
+        top: -30%;
+    }
+}
+
+
+@media screen and (max-width: 634.9px) {
+    .iconaSoluzioneBig3 {
+        top: -30%;
+    }
+}
+
+@media screen and (max-width: 616.9px) {
+    .iconaSoluzioneBig4 {
+        top: -25%;
+    }
+}
+
+@media screen and (max-width: 578.9px) {
+    .iconaSoluzioneBig2 {
+        top: -23%;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .iconaSoluzioneBig1 {
+        max-width: 90%;
+        position: static;
+    }
+
+     .iconaSoluzioneBig2 {
+        max-width: 105%;
+        position: static;
+    }
+
+     .iconaSoluzioneBig3 {
+        max-width: 90%;
+        position: static;
+    }
+
+     .iconaSoluzioneBig4 {
+        max-width: 105%;
+        position: static;
+    }
+
+    .colBlueSoluzioni, .colGreySoluzioni {
+        padding: 15px;
+        align-items: center;
+    }
+
+    .colGreySoluzioni {
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 425.9px) {
+    .colBlueSoluzioni, .colGreySoluzioni {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .colGreySoluzioni {
+        gap: 0;
+    }
+
+    .iconaSoluzioneBig1 {
+        max-width: 50%;
+        position: static;
+        padding-bottom: 15px;
+    }
+
+     .iconaSoluzioneBig2 {
+        max-width: 50%;
+        position: static;
+        padding-bottom: 15px;
+    }
+
+     .iconaSoluzioneBig3 {
+        max-width: 50%;
+        position: static;
+        padding-bottom: 15px;
+    }
+
+     .iconaSoluzioneBig4 {
+        max-width: 50%;
+        position: static;
+        padding-bottom: 15px;
+    }
+
+    .containerWhiteSoluzioni h1 {
+        font-size: 25px;
+    }
+
+    .containerWhiteSoluzioni p {
+        font-size: 13px;
+    }
+}

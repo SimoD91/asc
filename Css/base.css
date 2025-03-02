@@ -1,0 +1,1867 @@
+﻿  @font-face {
+    font-family: 'Roboto Condensed';
+    src: URL('../Fonts/RobotoCondensed-ExtraBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Roboto Condensed';
+    src: URL('../Fonts/RobotoCondensed-Black.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Roboto Condensed';
+    src: URL('../Fonts/RobotoCondensed-Thin.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Roboto Condensed';
+    src: URL('../Fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  #HeaderContainer {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+  }
+  
+  #navbar {
+      background-color: #001d2e;
+      max-width: 100%;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+      justify-content: end;
+  }
+  
+  .navbar>.container {
+      margin-left: 175px;
+      max-width: 85% !important;
+  }
+
+  .navbar-brand {
+      cursor:auto;
+  }
+  
+  .navbar-expand-lg {
+      display: block;
+  }
+  
+  .logoHead {
+      width: 25%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      cursor: pointer;
+  }
+  
+  a#nav-link.nav-link.active.linknav {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      text-decoration: none;
+      color: #001d2e;
+      background-color: #aec90b;
+      padding-left: 47px !important;
+      padding-right: 47px !important;
+      font-size: 33px;
+  }
+
+  a#nav-link.nav-link.active.linknav:hover {
+      box-shadow: 1px 1px 10px #d3d3d3b5;
+  }
+  
+  a#nav-link.nav-link.linknav {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+      text-decoration: none;
+      color: lightgrey;
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+      font-size: 33px;
+  }
+  
+  a#nav-link.nav-link.linknav:hover {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      text-decoration: none;
+      text-shadow: 1px 1px 10px #d3d3d3b5;
+      color: white;
+      font-size: 33px;
+  }
+  
+  a#nav-link.nav-link.numberDiv {
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      text-decoration: none;
+      color: #aec90b;
+      text-decoration: none;
+      font-size: 44px;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      line-height: 0.9;
+  }
+  
+  a#nav-link.nav-link.numberDiv:hover {
+      text-shadow: 1px 1px 10px #d3d3d3b5;
+      color: white;
+  }
+  
+  .containerIndex {
+      height: 100%;
+      background-color: #001d2e;
+  }
+  
+  .contHero {
+      background-color: #001d2e;
+      margin-left: 190px;
+      margin-right: 240px;
+      padding-top: 240px;
+  }
+  
+  .contHero h1, .contHero p {
+      color: white;
+  }
+  
+  .contHero h1 {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 80px;
+      line-height: 0.9;
+  }
+  
+  .contHero p {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 50px;
+      line-height: 1.1;
+      padding-top: 30px;
+  }
+  
+  .contHero .button {
+      background-color: #aec90b;
+      color: #001d2e;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-size: 30px;
+      border: none;
+      box-shadow: none;
+      padding: 15px 40px;
+      margin-top: 30px;
+      text-decoration: none;
+  }
+  
+  .contHero .button:hover {
+      box-shadow: 1px 1px 10px #d3d3d3b5;
+      text-decoration: none;
+  }
+  
+  .contHero button {
+      background-color: #aec90b;
+      color: #001d2e;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-size: 30px;
+      border: none;
+      box-shadow: none;
+      padding: 15px 40px;
+      margin-top: 30px;
+      text-decoration: none;
+  }
+  
+  .contHero button:hover {
+      box-shadow: 1px 1px 10px #d3d3d3b5;
+      text-decoration: none;
+      color: white;
+  }
+  
+  #sistemiCloud {
+      scroll-margin-top: 150px;
+  }
+  
+  .contVideo {
+      padding-left: 250px;
+      padding-bottom: 100px;
+  }
+
+  video {
+    box-shadow: -1px 1px 5px 0px black;
+  }
+  
+  .containerGrey {
+      background: linear-gradient(200deg, rgba(50, 50, 50, 1) 0%, rgba(10, 10, 10, 1) 100%);
+      color: white;
+      padding-bottom: 150px;
+      border-top: 1px solid #8080803b;
+  }
+  
+  .rowTopIcons {
+      margin-left: 300px;
+      margin-right: 100px;
+  }
+  
+  .iconaTop {
+      max-width: 30%;
+  }
+  
+  .contImage img {
+      width: 100%;
+  }
+  
+  .containerGrey img {
+      padding-bottom: 20px;
+  }
+  
+  .containerGrey h1 {
+      padding-top: 100px;
+      padding-left: 190px;
+      font-size: 80px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      padding-bottom: 50px;
+  }
+  
+  .containerGrey p {
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 35px;
+      text-align: start;
+      margin-bottom: 0;
+      line-height: 1.2;
+  }
+  
+  .containerLightGrey {
+      background-color: #f1f5f6e3;
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+  
+  .rowLightGrey {
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+  
+  .rowLightGrey h1 {
+      font-size: 70px;
+      background-color: #aec90b;
+      color: white;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      text-align: start;
+      margin-bottom: 0;
+  }
+  
+  .h1First {
+      max-width: 280px;
+      padding-left: 8px;
+  }
+  
+  .h1Second {
+      max-width: 390px;
+      padding-left: 8px;
+  }
+  
+  .h1Third {
+      max-width: 568px;
+      padding-left: 8px;
+  }
+  
+  .contImage p {
+      font-size: 41px;
+      padding-top: 30px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.2;
+  }
+  
+  .containerWhite {
+      background-color: white;
+  }
+  
+  .rowBottomIcons {
+      justify-content: center;
+      padding-top: 100px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 25px;
+      gap: 170px;
+      padding-bottom: 100px;
+      width: 100%;
+      padding-left: 150px;
+      padding-right: 150px;
+  }
+  
+  .rowBottomIcons p {
+      margin-bottom: 0;
+      line-height: 1.2;
+  }
+  
+  .iconaBot {
+      max-width: 35%;
+      padding-bottom: 20px;
+  }
+  
+  .iconaAccess {
+      max-width: 30%;
+  }
+  
+  div.col-xs-12.col-sm-12.col-lg-2 {
+      max-width: 230px;
+  }
+  
+  footer {
+      background-color: #001d2e;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+  }
+  
+  footer a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .privacyP {
+    font-weight: 300;
+  }
+  
+  .privacyP:hover {
+      text-shadow: 1px 1px 10px #d3d3d3b5;
+      font-weight: 400;
+  }
+  
+  footer p {
+      margin-bottom: 0;
+  }
+  
+  .underP, .underPnoLink {
+      font-weight: 300;
+  }
+
+  .colFooter>ul>li>a {
+      display: block;
+      max-width: 170px;
+    }
+
+  .underP:hover {
+     text-shadow: 1px 1px 10px #d3d3d3b5;
+     font-weight: 400;
+  }
+  
+  .colLogoFooter {
+      margin-bottom: 0 !important;
+  }
+  
+  .colFooter {
+      width: 300px;
+  }
+  
+  .contFooter {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  
+  .rowFooter {
+      justify-content: center;
+      margin-top: 20px !important;
+      gap: 200px;
+  }
+  
+  .imgLogoFooter {
+      max-width: 60%;
+  }
+
+  .bnn-banner {
+      box-shadow: rgba(0, 0, 0, 0.75) 1px 1px 3px !important;
+  }
+
+  .bnn-privacy-policy, .bnn-banner-description, .bnn-banner-title {
+      text-align: center;
+  }
+
+  @media screen and (min-width: 2500px) and (max-width: 2655px) {
+      .contHero {
+          margin-right: 250px;
+      }
+
+      .contImage img {
+          width: 95%;
+      }
+  }
+
+  @media screen and (min-width: 2400px) and (max-width: 2500px) {
+      .contHero {
+          margin-right: 220px;
+      }
+  }
+
+  @media screen and (max-width: 2390px) {
+      .logoHead {
+          margin-left: -25px;
+      }
+  }
+  
+  @media screen and (max-width: 2244px) {
+      .contHero h1 {
+          font-size: 70px;
+      }
+  
+      .contHero p {
+          font-size: 50px;
+      }
+  
+      .contVideo {
+          width: 90%;
+          padding-left: 0;
+      }
+  
+      .contHero>.row>.col-lg-8 {
+          display: flex;
+          justify-content: end;
+      }
+  
+      .colFooter {
+          padding-top: 0;
+      }
+  }
+
+  @media screen and (max-width: 2210px) {
+      .logoHead {
+          margin-left: -35px;
+      }
+  }
+
+  @media screen and (max-width: 2145px) {
+      .rowLightGrey h1 {
+         font-size: 65px;
+      }
+
+      .h1First {
+         max-width: 260px;
+      }
+
+      .h1Second {
+         max-width: 365px;
+      }
+
+      .h1Third {
+          max-width: 526px;
+      }
+  }
+
+  @media screen and (max-width: 2129px) {
+      .rowBottomIcons {
+          gap: 140px;
+      }
+  }
+
+  @media screen and (max-width: 2120px) {
+      .logoHead {
+          margin-left: -45px;
+      }
+  }
+  
+  @media screen and (max-width: 2106px) {
+      .contHero button {
+          margin-bottom: 30px;
+      }
+  
+      .contHero .button {
+          margin-bottom: 30px;
+      }
+  }
+  
+  @media screen and (max-width: 2057px) {
+      .rowLightGrey h1 {
+          font-size: 50px;
+      }
+  
+      .h1First {
+          max-width: 205px;
+      }
+  
+      .h1Second {
+          max-width: 285px;
+      }
+  
+      .h1Third {
+         max-width: 410px;
+      }
+  }
+  
+  @media screen and (max-width: 2009px) {
+      .rowBottomIcons {
+          gap: 110px;
+      }
+  }
+  
+  @media screen and (max-width: 2000px) {
+      .contHero h1 {
+          font-size: 50px;
+      }
+  
+      .contHero p {
+          font-size: 40px;
+      }
+  
+      .contHero {
+          margin-right: 210px;
+      }
+  
+      .navbar-collapse {
+          justify-content: center !important;
+      }
+  
+      a.navbar-brand {
+          width: 400px;
+      }
+
+      a#nav-link.nav-link.linknav {
+        padding-left: 49px !important;
+        padding-right: 49px !important;
+      }
+
+      .logoHead {
+          margin-left: 0;
+      }
+  }
+
+  @media screen and (min-width: 1984px) and (max-width: 2000px) {
+      .contHero {
+          margin-right: 200px;
+      }
+  }
+
+  @media screen and (min-width: 1950px) and (max-width: 1984px) {
+      .contHero {
+          margin-right: 185px;
+      }
+  }
+
+  @media screen and (min-width: 1920px) and (max-width: 1950px) {
+      .contHero {
+          margin-right: 170px;
+      }
+  }
+  
+  @media screen and (max-width: 1929.9px) {
+      .rowFooter {
+          gap: 0;
+      }
+
+      .rowBottomIcons {
+          gap: 60px;
+          padding-right: 70px;
+      }
+
+      .contImage p {
+          font-size: 30px;
+      }
+
+      .colFooter>ul>li>a {
+        max-width: 100%;
+      }
+
+      .colFooter {
+        padding-left: 90px !important;
+      }
+  }
+
+  @media screen and (min-width: 1660px) and (max-width: 1920px) {
+      .contHero h1 {
+          max-width: 500px;
+      }
+  }
+
+  @media screen and (min-width: 1704px) and (max-width: 1916px) {
+      .contHero {
+         margin-right: 200px;
+      }
+  }
+
+  @media screen and (max-width: 1916px) {
+      a.navbar-brand {
+          width: 300px;
+      }
+  
+      .logoHead {
+          width: 40%;
+      }
+  
+      .rowTopIcons {
+          margin-right: 200px;
+      }
+  }
+
+  @media screen and (max-width: 1889px) {
+      .rowBottomIcons {
+          gap: 90px;
+      }
+  }
+
+  @media screen and (min-width: 1825px) and (max-width: 1850px) {
+      .contHero {
+          margin-right: 160px !important;
+      }
+  }
+
+  @media screen and (min-width: 1799px) and (max-width: 1850px) {
+      .contHero {
+          margin-right: 180px !important;
+      }
+  }
+
+  @media screen and (min-width: 1799px) and (max-width: 1824px) {
+      .contHero {
+          margin-right: 140px !important;
+      }
+  }
+  
+  @media screen and (max-width: 1809px) {
+      .rowBottomIcons {
+          gap: 50px;
+      }
+  }
+  
+  @media screen and (max-width: 1798px) {
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+          font-size: 18px;
+      }
+
+      a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+        font-size: 18px !important;
+      }
+  
+      a#nav-link.nav-link.numberDiv {
+          font-size: 20px;
+          line-height: 1.1;
+      }
+  }
+
+  @media screen and (min-width: 1520px) and (max-width: 1701px) {
+       .logoHead {
+          margin-left: -45px;
+      }
+  }
+
+  @media screen and (min-width: 1482px) and (max-width: 1701px) {
+      .contVideo {
+         padding-left: 0;
+      }
+  }
+
+  
+  @media screen and (max-width: 1700px) {
+      .rowTopIcons {
+          margin-left: 180px;
+          margin-right: 50px;
+      }
+  
+      .rowLightGrey {
+          margin-left: 150px;
+      }
+
+      .navbar>.container {
+        height: 65px;
+      }
+
+      .navbar-collapse {
+        margin-left: 100px;
+      }
+
+      .logoHead {
+        width: 30% !important;
+    }
+
+    .contHero {
+        padding-top: 140px;
+      }
+  }
+  
+  @media screen and (max-width: 1660px) {
+      .contVideo {
+          width: 100%;
+      }
+  
+      .contHero h1 {
+          font-size: 45px;
+      }
+  
+      .contHero p {
+          font-size: 30px;
+      }
+  
+      .contHero button {
+          font-size: 20px;
+          padding: 15px 40px;
+      }
+  
+      .contHero .button {
+          font-size: 20px;
+          padding: 15px 40px;
+      }
+  
+      .containerLightGrey p {
+          font-size: 25px;
+      }
+  }
+
+  @media screen and (max-width: 1653px) {
+      footer {
+          font-size: 20px;
+      }
+  }
+  
+  @media screen and (max-width: 1634px) {
+      a#nav-link.nav-link.numberDiv {
+          font-size: 20px;
+          line-height: 1.1;
+      }
+  }
+
+  @media screen and (max-width: 1623px) {
+      .rowLightGrey h1 {
+          font-size: 48px;
+      }
+
+      .h1First {
+          max-width: 198px;
+      }
+  
+      .h1Second {
+          max-width: 275px;
+      }
+  
+      .h1Third {
+         max-width: 395px;
+      }
+  }
+  
+  @media screen and (max-width: 1606px) {
+    .navbar>.container {
+        margin-left: 188px;
+    }
+
+      .rowLightGrey h1 {
+          font-size: 40px;
+      }
+
+      .rowLightGrey {
+        margin-left: 150px;
+        margin-right: 120px;
+    }
+
+    .rowTopIcons {
+        margin-left: 240px;
+    }
+  
+      .h1First {
+          max-width: 167px;
+      }
+  
+      .h1Second {
+          max-width: 230px;
+      }
+  
+      .h1Third {
+         max-width: 330px;
+      }
+  
+      a#nav-link.nav-link.numberDiv {
+          font-size: 20px;
+          line-height: 1.1;
+      }
+
+      .contHero {
+        padding-top: 110px;
+        margin-right: 130px;
+        margin-left: 150px;
+      }
+
+      .contVideo {
+        padding-bottom: 15px;
+    }
+
+    .containerGrey h1 {
+        padding-top: 15px;
+        font-size: 55px;
+        padding-bottom: 20px;
+        padding-left: 150px;
+    }
+
+    .containerGrey {
+        padding-bottom: 40px;
+    }
+
+    .containerLightGrey {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .containerLightGrey p {
+        font-size: 26.5px;
+    }
+
+    .rowBottomIcons {
+        font-size: 18px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
+    .imgLogoFooter {
+        max-width: 50%;
+    }
+
+    .colFooter {
+        padding-left: 150px !important;
+    }
+
+    #sistemiCloud {
+        scroll-margin-top: 80px;
+    }
+  }
+
+  @media screen and (min-width: 1501px) and (max-width: 1592px) {
+      .contVideo {
+          padding-left: 50px;
+      }
+  }
+
+  @media screen and (min-width: 1440px) and (max-width: 1592px) {
+      .rowBottomIcons {
+          padding-left: 140px;
+          gap: 30px;
+      }
+  }
+  
+  @media screen and (max-width: 1592px) {
+      a.navbar-brand {
+          width: 150px;
+      }
+  
+      .navbar-collapse {
+        margin-left: 180px;
+      }
+
+      .logoHead {
+        width: 50% !important;
+    }
+  
+      .iconDiv p {
+          font-size: 25px;
+      }
+  }
+  
+  @media screen and (max-width: 1579px) {
+      .rowBottomIcons {
+          gap: 30px;
+      }
+  }
+
+  @media screen and (min-width: 1441px) and (max-width: 1519px) {
+      .logoHead {
+          margin-left: -30px;
+      }
+  }
+
+  @media screen and (min-width: 1449px) and (max-width: 1500px) {
+      .contHero {
+          margin-right: 130px;
+      }
+  }
+  
+  @media screen and (max-width: 1500px) {
+      .contVideo {
+          padding-left: 0;
+      }
+  
+      .rowBottomIcons {
+          gap: 40px;
+      }
+  }
+  
+  @media screen and (max-width: 1440px) {
+      .navbar>.container {
+          margin-left: 120px;
+      }
+  
+      .contHero {
+          margin-left: 140px;
+          margin-right: 140px;
+      }
+  
+      .containerGrey h1 {
+          padding-left: 140px;
+          font-size: 50px;
+      }
+  
+      .rowLightGrey {
+          margin-left: 120px;
+          margin-right: 120px;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 250px;
+      }
+  
+      .rowBottomIcons {
+          padding-left: 50px;
+          padding-right: 5px;
+          gap: 0;
+          font-size: 20px;
+      }
+  }
+  
+  @media screen and (max-width: 1416px) {
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+      }
+  
+      .navbar-collapse {
+          justify-content: end !important;
+      }
+  
+      .navbar>.container {
+          margin-right: auto;
+          margin-left: auto;
+          max-width: 85% !important;
+      }
+  
+      .contHero {
+          margin-left: 120px;
+      }
+  
+      .contHero p {
+          padding-top: 10px;
+      }
+  
+      .contHero button {
+          margin-top: 0;
+      }
+  
+      .contHero .button {
+          margin-top: 0;
+      }
+  
+      .containerGrey h1 {
+          padding-left: 120px;
+      }
+  
+      .rowTopIcons {
+          margin-left: 150px;
+          margin-right: 0;
+      }
+  }
+  
+  @media screen and (max-width: 1363px) {
+      .contFooter {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+  }
+  
+  @media screen and (max-width: 1340px) {
+      .rowBottomIcons {
+          padding-left: 110px;
+      }
+  }
+  
+  @media screen and (max-width: 1327px) {
+      .rowLightGrey h1 {
+          font-size: 30px;
+      }
+  
+      .h1First {
+          max-width: 130px;
+      }
+  
+      .h1Second {
+          max-width: 175px;
+      }
+  
+      .h1Third {
+         max-width: 252px;
+      }
+  }
+  
+  @media screen and (max-width: 1264px) {
+      .rowBottomIcons {
+          font-size: 18px;
+          padding-left: 60px;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 200px;
+      }
+  
+      .rowFooter {
+          padding-left: 50px;
+      }
+
+      .colFooter {
+        padding-left: 90px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1249px) {  
+      .containerGrey {
+          padding-bottom: 40px;
+      }
+  
+      .containerGrey img {
+          width: 50%;
+      }
+  
+      .containerGrey h1 {
+          padding-top: 20px;
+          padding-left: 115px;
+      }
+  
+      .containerLightGrey {
+          padding-top: 40px;
+          padding-bottom: 30px;
+      }
+  
+      .rowLightGrey {
+          margin-left: 100px;
+      }
+  
+      .rowBottomIcons {
+          padding-top: 50px;
+          padding-bottom: 50px;
+      }
+  }
+
+  @media screen and (max-width: 1204px) {
+      a#nav-link.nav-link.linknav:hover {
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+      }
+  }
+  
+  @media screen and (max-width: 1200px) {
+      .contHero h1 {
+          font-size: 38px;
+      }
+  
+      .contHero p {
+          font-size: 28px;
+      }
+  
+      .iconDiv p {
+          font-size: 20px;
+      }
+  }
+  
+  @media screen and (max-width: 1184px) {  
+      .contFooter {
+          margin-left: 70px;
+      }
+  
+      div.col-xs-12.col-sm-12.col-lg-2 {
+          max-width: 230px;
+      }
+  
+      .colFooter {
+          width: 280px;
+      }
+  }
+  
+  @media screen and (max-width: 1142.9px) {
+      .colFooter {
+          width: 230px;
+      }
+  
+      .rowFooter {
+          padding-left: 0;
+      }
+  }
+  
+  @media screen and (max-width: 1141px) {
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+          font-size: 15px;
+      }
+
+      a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+          font-size: 15px !important;
+          padding-right: 20px !important;
+          padding-left: 20px !important;
+      }
+
+      a#nav-link.nav-link.numberDiv {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 1089px) {
+      .navbar>.container {
+          margin-right: 0;
+          margin-left: 0;
+          max-width: 100% !important;
+      }
+  
+      .contHero {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+  
+      .containerGrey h1 {
+          padding-left: 10px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          font-size: 50px;
+      }
+  
+      .rowLightGrey {
+          margin-left: 0;
+          margin-right: 0;
+      }
+
+      a#nav-link.nav-link.numberDiv {
+        padding-right: 0 !important;
+      }
+  }
+  
+  @media screen and (max-width: 1064px) {
+      .rowBottomIcons {
+          padding-left: 5px;
+      }
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .contFooter {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+  
+      footer {
+          font-size: 15px;
+      }
+  
+      .imgLogoFooter {
+          max-width: 80%;
+      }
+  
+      .colFooter {
+          padding-top: 7px;
+      }
+  
+      .colLogoFooter {
+          padding-bottom: 15px;
+      }
+  
+      .rowBottomIcons {
+          padding-left: 15px;
+      }
+  }
+  
+  @media screen and (max-width: 1019.9px) {
+      .rowFooter {
+          gap: 0;
+          justify-content: center;
+      }
+  
+      .rowBottomIcons {
+          font-size: 16px;
+          padding-left: 15px;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 190px;
+      }
+  }
+  
+  @media screen and (max-width: 1007px) {
+      .iconDiv p {
+          font-size: 19px;
+      }
+  }
+  
+  @media screen and (max-width: 1004px) {
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+          font-size: 15px;
+      }
+
+      a#nav-link.nav-link.linknav:hover {
+          font-size: 15px;
+      }
+  
+      a#nav-link.nav-link.numberDiv {
+          font-size: 15px;
+      }
+  }
+  
+  @media screen and (max-width: 991px) {
+      .rowTopIcons {
+          margin-right: 50px;
+          margin-left: 200px;
+      }
+  
+      .iconDiv {
+          padding-bottom: 15px;
+      }
+  }
+
+  @media screen and (max-width: 969.9px) {
+    .rowBottomIcons {
+        width: 103%;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+      .contHero h1 {
+          font-size: 30px;
+      }
+  
+      .contHero p {
+          font-size: 25px;
+      }
+  }
+  
+  @media screen and (max-width: 959px) {
+      .rowBottomIcons {
+          gap: 0;
+          padding-left: 3px;
+      }
+  }
+
+  @media screen and (max-width: 929.9px) {
+    .rowBottomIcons {
+        gap: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 910px) {
+      .logo {
+          width: 75%;
+      }
+  }
+  
+  @media screen and (max-width: 907px) {
+      .imgLogoFooter {
+          width: 150%;
+      }
+  }
+  
+  @media screen and (max-width: 898px) {
+      .navbar-nav {
+          justify-content: center !important;
+      }
+  }
+
+  @media screen and (max-width: 876px) {
+    a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+        font-size: 9px;
+    }
+
+    a#nav-link.nav-link.linknav:hover {
+        font-size: 9px !important;
+    }
+
+    a#nav-link.nav-link.numberDiv {
+        font-size: 9px;
+    }
+}
+  
+  @media screen and (max-width: 868px) {
+      .colLogoFooter {
+          margin-bottom: 0 !important;
+      }
+  
+      .colFooter {
+          padding-top: 0;
+      }
+  
+      .rowTopIcons {
+          margin-left: 150px;
+      }
+  
+      .containerGrey {
+          padding-bottom: 20px;
+      }
+  
+      .containerGrey h1 {
+          font-size: 40px;
+          padding-top: 20px;
+      }
+  }
+
+  @media screen and (max-width: 857.9px) {
+    .rowFooter {
+        flex-wrap: nowrap;
+    }
+  }
+
+  @media screen and (max-width: 810.9px) {
+    .colFooter {
+        width: 150px;
+        padding-left: 0 !important;
+    }
+  }
+  
+  @media screen and (max-width: 805px) {
+      .contHero h1 {
+          font-size: 27px;
+      }
+  
+      .contHero p {
+          font-size: 23px;
+      }
+  
+      .contHero button {
+          font-size: 15px;
+          padding: 10px;
+      }
+  
+      .contHero .button {
+          font-size: 15px;
+          padding: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 802px) {
+      .rowLightGrey h1 {
+          font-size: 29px;
+      }
+  
+      .h1First {
+          max-width: 125px;
+      }
+  
+      .h1Second {
+          max-width: 170px;
+      }
+  }
+
+  @media screen and (max-width: 779px) {
+      .rowLightGrey h1 {
+          font-size: 28px;
+      }
+  
+      .h1First {
+          max-width: 120px;
+      }
+  
+      .h1Second {
+          max-width: 165px;
+      }
+
+      .h1Third {
+          max-width: 280px;
+      }
+  }
+  
+  @media screen and (max-width: 778px) {
+      .rowBottomIcons {
+          padding-left: 60px;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .footerLogo {
+          text-align: center;
+          padding-bottom: 20px;
+      }
+  
+      footer {
+          text-align: center;
+      }
+  }
+  
+  @media screen and (max-width: 767.9px) {
+      #navbar {
+          border-bottom: 1px solid #dee2e626;
+      }
+
+      .logoHead {
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+  
+      .imgLogoFooter {
+          width: 18%;
+      }
+  
+      .colLogoFooter {
+          padding-bottom: 0;
+      }
+  
+      .navbar>.container {
+          max-width: 100% !important;
+          height: 100%;
+      }
+  
+      .navbar-toggler {
+          background: linear-gradient(200deg, rgba(50, 50, 50, 1) 0%, rgba(10, 10, 10, 1) 100%) !important;
+          color: transparent !important;
+          margin-right: 0;
+      }
+  
+      .navbar-toggler-icon {
+          background-image: url("../Images/navbar-toggler.png") !important;
+          transform: scale(-1, 1);
+      }
+  
+      .navbar-nav {
+          display: flex;
+          flex-direction: row;
+          margin-left: -158px;
+        }
+  
+      a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus, a#nav-link.nav-link.numberDiv:active, a#nav-link.nav-link.numberDiv:focus {
+          text-shadow: 1px 1px 10px #d3d3d3b5;
+          background-color: transparent;
+      }
+
+      a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+          font-size: 20px;
+      }
+
+      a#nav-link.nav-link.linknav:hover {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+      }
+  
+      .contHero>.row>.col-lg-4 {
+          text-align: center;
+      }
+  
+      .contHero {
+          padding-top: 120px;
+      }
+  
+      .contHero h1 {
+          font-size: 35px;
+          margin-top: 10px;
+      }
+  
+      .h1First, .h1Second, .h1Third {
+          width: auto;
+          font-size: 10px !important;
+      }
+  
+      .containerGrey h1 {
+          text-align: center;
+      }
+  
+      div.col-xs-12.col-sm-12.col-md-4.col-lg-4 {
+          display: flex;
+          justify-content: center;
+      }
+  
+      .rowFooter div.col-xs-12.col-sm-12.col-lg-2 {
+          max-width: 100%;
+      }
+  
+      .rowLightGrey h1 {
+          background-color: #aec90b;
+          margin-bottom: 30px;
+      }
+  
+      h1.h1First {
+          width: auto !important;
+          font-size: 25px !important;
+          padding-left: 5px;
+      }
+  
+      h1.h1Second {
+          width: auto !important;
+          font-size: 25px !important;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+  
+      h1.h1Third {
+         width: auto !important;
+         font-size: 25px !important;
+         padding-left: 5px;
+         padding-right: 5px;
+      }
+  
+      .containerLightGrey {
+          padding-top: 30px;
+      }
+  
+      .containerLightGrey h1 {
+          text-align: center;
+      }
+  
+      .containerLightGrey p {
+          text-align: center;
+      }
+  
+      .rowFooter {
+          padding-left: 0;
+          flex-wrap: wrap;
+      }
+  }
+  
+  @media screen and (max-width: 690px) {
+      .navbar-nav {
+          display: flex;
+          justify-content: center !important;
+      }
+  
+      .rowTopIcons {
+          margin-left: 125px;
+      }
+  }
+  
+  @media screen and (max-width: 674px) {
+      .rowBottomIcons {
+          gap: 0;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          padding-bottom: 20px;
+      }
+
+      .navbar-nav {
+        margin-left: -185px;
+      }
+  }
+  
+  @media screen and (max-width: 640px) {
+      .rowFooter {
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          align-items: center;
+      }
+  
+      .colFooter {
+          width: 100%;
+          padding-top: 0;
+          padding-left: 12px !important;
+      }
+
+      .colFooter>ul>li>a {
+          display:inline;
+          max-width: 170px;
+      }
+
+      .colFooter br {
+          display: none;
+      }
+
+      .privacyP {
+          box-shadow: inset 0px -2px 0px 0px #001321;
+          border-bottom: 1px solid #dee2e626;
+          padding-bottom: 10px;
+      }
+
+      .underPnoLink {
+          padding-top: 10px;
+      }
+  }
+  
+  @media screen and (max-width: 634px) {
+      .rowBottomIcons {
+          gap: 20px;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 250px;
+      }
+  }
+  
+  @media screen and (max-width: 575.9px) {
+      .rowTopIcons {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+      }
+  
+      .rowTopIcons p {
+          text-align: center;
+      }
+  
+      .containerGrey h1 {
+          padding-left: 0;
+          margin-bottom: 0;
+      }
+  
+      img.iconaTop {
+          padding-bottom: 15px;
+      }
+  
+      .imgLogoFooter {
+          width: 35%;
+      }
+  }
+  
+  @media screen and (max-width: 544px) {
+      .rowBottomIcons {
+          gap: 0;
+      }
+  }
+  
+  @media screen and (max-width: 524px) {
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 190px;
+      }
+  }
+  
+  @media screen and (max-width: 472px) {
+      h1.h1First {
+          font-size: 20px !important;
+          padding-left: 5px;
+      }
+  
+      h1.h1Second {
+          font-size: 20px !important;
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+  
+      h1.h1Third {
+         font-size: 20px !important;
+         padding-left: 5px;
+         padding-right: 5px;
+      }
+  }
+  
+  @media screen and (max-width: 444px) {
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          width: 100%;
+      }
+  
+      .rowBottomIcons {
+          padding-left: 2px;
+          text-align: center;
+          width: auto;
+      }
+  
+      .containerWhite {
+          overflow: hidden;
+      }
+  }
+  
+  @media screen and (max-width: 442px) {
+      .rowBottomIcons {
+          font-size: 20px;
+          padding-bottom: 0;
+      }
+  
+      .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+          max-width: 100%;
+          padding-bottom: 50px;
+          padding-right: 50px;
+          padding-left: 50px;
+      }
+  }
+  
+  @media screen and (max-width: 425.9px) {
+      .imgLogoFooter {
+          width: 25%;
+      }
+  
+      .logoHead {
+          margin-left: 0;
+      }
+  
+      .navbar-toggler {
+          margin-right: 0;
+      }
+  
+      .rowTopIcons p {
+          font-size: 20px;
+      }
+  
+      .rowLightGrey {
+          margin-left: 0;
+          margin-right: 0;
+      }
+
+      .contHero h1 {
+        font-size: 40px;
+      }
+  
+      .contVideo {
+          padding-bottom: 15px;
+      }
+  
+      .containerLightGrey {
+          padding-bottom: 0;
+          padding-top: 22px;
+      }
+  
+      .containerLightGrey p {
+          font-size: 18px;
+          text-align: start;
+      }
+  
+      .contImage img {
+          height: 160px;
+      }
+
+      .contImage p {
+        padding-top: 10px;
+      }
+  
+      .containerGrey {
+          padding-bottom: 10px;
+          border-top: 1px solid #8080806f;
+      }
+
+      .contHero p {
+        font-size: 20px;
+    }
+
+    .h1First, .h1Second, .h1Third {
+        margin-bottom: 20px !important;
+    }
+
+    .rowBottomIcons div.col-xs-12.col-sm-12.col-lg-2 {
+        max-width: 80%;
+        padding-bottom: 25px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .rowBottomIcons {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .iconaBot {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    a#nav-link.nav-link.linknav:hover {
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 900;
+        text-decoration: none;
+        text-shadow: 1px 1px 10px #d3d3d3b5;
+        color: white;
+        font-size: 33px;
+    }
+  }
+
+  @media screen and (max-width: 409.9px) {
+    a#nav-link.nav-link.numberDiv {
+    font-size: 16px !important;
+    }
+
+    .contHero {
+        padding-top: 95px;
+    }
+  }
+  
+  @media screen and (max-width: 388px) {
+       h1.h1First {
+          font-size: 18px !important;
+      }
+  
+      h1.h1Second {
+          font-size: 18px !important;
+      }
+  
+      h1.h1Third {
+         font-size: 18px !important;
+      }
+  }
+  
+  @media screen and (max-width: 376px) {
+      .rowLightGrey {
+          margin-left: 0;
+      }
+  
+      .containerGrey h1 {
+          font-size: 29px;
+      }
+  
+      .imgLogoFooter {
+          width: 35%;
+      }
+
+    .contImage p {
+        font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 359px) and (max-width: 378px) {
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+      }
+  }
+  
+  @media screen and (max-width: 354px) {
+       h1.h1First {
+          font-size: 16px !important;
+      }
+  
+      h1.h1Second {
+          font-size: 16px !important;
+      }
+  
+      h1.h1Third {
+         font-size: 16px !important;
+      }
+  }
+  @media screen and (max-width: 338px) {
+    .contHero h1 {
+        font-size: 35px;
+  }
+}
+  
+  @media screen and (max-width: 320px) {
+      .imgLogoFooter {
+          width: 40%;
+      }
+  
+       h1.h1First {
+          font-size: 15px !important;
+      }
+  
+      h1.h1Second {
+          font-size: 15px !important;
+      }
+  
+      h1.h1Third {
+         font-size: 15px !important;
+      }
+
+      .contImage p {
+        font-size: 14px;
+    }
+  }

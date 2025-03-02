@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta name="description" content="ASC | Advice Security Cloud" />
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-toggle.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="Css/base.css" rel="stylesheet" />
+    <link href="Css/soluzioni.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/GestioneMasterPage.js"></script>
+    <title>ASC | Soluzioni</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <script>
+        var _cookieConsent = {
+            resources: [
+                //personalizzazioni tasti cookies
+                { category: 'necessary', type: 'script' },
+                { category: 'statistics', type: 'script' },
+                { category: 'preferences', type: 'script' },
+                { category: 'marketing', type: 'iframe' },
+            ],
+
+            privacyPolicyUrl: 'Privacy.html', //link testuale
+
+            theme: {
+                //personalizzazione finestra, stile
+                borderSize: 1,
+                spacing: 10,
+                radius: 20,
+                bannerWidth: 230,
+                fontSize: 14,
+                lineHeight: 20,
+                headerFontSize: 22,
+                headerLineHeight: 28,
+                colors: [
+                 '#001d2e', // Colore di sfondo
+                 'white', // Colore testo
+                 '#FFF', // Colore link testuale e pulsanti accetta tutto/salva-Colore enabled pulsantini cookies e pallino not enabled
+                 '#001d2e', // Colore testo pulsanti accetta tutto/salva
+                 '#dfdfdf', // Colore hover pulsanti accetta tutto/salva-Colore hover enabled pulsantini cookies
+                 '#aec90b', // Colore pallino tasto necessary
+                 '#6c757dc9', // Colore sfondo pulsantini cookies not enabled/Bordi
+                 '#98aab4', // Colore hover pulsantini cookies not enabled
+                 '#aec90b', // Colore pallino pulsantini cookies enabled
+                ],
+            },
+
+            translations: {
+                //gestione cambio lingua
+                'message': {
+                    bannerTitle: 'Questo sito utilizza i cookies',
+                    bannerDescription: 'Usiamo i cookies per migliorare la tua esperienza di navigazione. Scegli quali tipologie di cookies ci permetti di utilizzare.',
+                    bannerOpenPrivacyPolicy: 'Vai alla policy',
+                    save: 'Salva',
+                    acceptAll: 'Accetta Tutto',
+                    necessary: 'Necessari',
+                    marketing: 'Marketing',
+                    preferences: 'Preferenze',
+                    statistics: 'Statistici',
+                    unclassified: 'Non classificati'
+                },
+            },
+        };
+    </script>
+    <script src="Scripts/cookieconsent.js"></script>
+    <script>
+        $(document).ready(function () {
+            CaricaMasterPage();
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="HeaderContainer"></div>
+
+    <div class="containerSoluzioni">
+        <div class="contHero contHeroSoluzioni">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <h1>Soluzioni avanzate</h1>
+                    <p>che garantiscono il funzionamento
+                       sicuro ed efficiente di tutta
+                       l’infrastruttura della tua rete
+                    </p>
+                    <button onclick="location.href='#soluzioni'" type="button">Scopri</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                    <div class="contImgSoluzioni">
+                        <img src="Images/immagine_soluzioni.jpg" alt="img" class="imgSoluzioni">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerGrey" id="soluzioni">
+        <h1>LE NOSTRE SOLUZIONI</h1>
+        <div class="row rowTopIcons">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                <img src="Images/icona_soluzione_small1.png" alt="cloud" class="iconaTop">
+                <p style="font-weight: 900;">Gestioni</p>
+                <p>reti</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                <img src="Images/icona_soluzione_small2.png" alt="cloud" class="iconaTop">
+                <p style="font-weight: 900;">Sicurezza</p>
+                <p>informatica</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                <img src="Images/icona_soluzione_small3.png" alt="cloud" class="iconaTop">
+                <p style="font-weight: 900;">Protezione</p>
+                <p>server e endpoint</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                <img src="Images/icona_soluzione_small4.png" alt="cloud" class="iconaTop">
+                <p style="font-weight: 900;">Disaster</p>
+                <p>recovery</p>
+            </div>
+        </div>
+    </div>
+    <div class="containerWhiteSoluzioni">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 colBlueSoluzioni">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2">
+                    <img src="Images/icona_soluzione_big1.png" alt="cloud" class="iconaSoluzioneBig1">
+                </div>
+                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10">
+                    <h1><span style="font-weight: 800;">Gestioni</span> reti</h1>
+                    <p>
+                        Siamo specializzati nella configurazione e gestione delle reti aziendali, garantendo il
+                        funzionamento sicuro ed efficiente di tutta l’infrastruttura. Monitoriamo e aggiorniamo tutti i
+                        componenti garantendo sempre la connessione ottimale tra dispositivi e sedi e proteggendo
+                        i dati aziendali e ottimizzando la comunicazione interna ed esterna.
+                    </p>
+                </div>
+                </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 colGreySoluzioni">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2">
+                    <img src="Images/icona_soluzione_big2.png" alt="cloud" class="iconaSoluzioneBig2">
+                </div>
+                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10">
+                    <h1><span style="font-weight: 800;">Sicurezza</span> informatica</h1>
+                    <p>
+                        Grazie a soluzioni avanzate di monitoraggio, firewall, protezione antivirus e gestione degli
+                        accessi, garantiamo la massima sicurezza informatica, prevenendo attacchi e riducendo al
+                        minimo i rischi di perdita di dati. Il servizio include anche attività di consulenza, formazione e
+                        aggiornamenti continui, per mantenere la sicurezza sempre ai massimi livelli e salvaguardare
+                        la continuità operativa dell'azienda.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 colBlueSoluzioni">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2">
+                    <img src="Images/icona_soluzione_big3.png" alt="cloud" class="iconaSoluzioneBig3">
+                </div>
+                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10">
+                    <h1><span style="font-weight: 800;">Protezione</span> server e endpoint</h1>
+                    <p>
+                        Servizio completo di Protezione Server e Endpoint per garantire la sicurezza di tutti i
+                        dispositivi aziendali, dai server centrali ai dispositivi degli utenti finali. Con soluzioni
+                        avanzate di antivirus, firewall, gestione delle patch e monitoraggio continuo, il servizio
+                        protegge da minacce come malware, ransomware e attacchi informatici.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 colGreySoluzioni">
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-2">
+                    <img src="Images/icona_soluzione_big4.png" alt="cloud" class="iconaSoluzioneBig4">
+                </div>
+                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10">
+                    <h1><span style="font-weight: 800;">Disaster</span> recovery</h1>
+                    <p>
+                        Offriamo un servizio di Disaster Recovery dati che assicura la continuità operativa e la
+                        protezione delle informazioni aziendali in caso di guasti, attacchi informatici o eventi
+                        imprevisti. Grazie a soluzioni avanzate di backup, replica e ripristino dei dati, il servizio
+                        consente un recupero rapido e sicuro, minimizzando i tempi di inattività e garantendo la
+                        piena integrità dei dati.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="FooterContainer"></div>
+</body>
+</html>

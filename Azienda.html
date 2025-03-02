@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta name="description" content="ASC | Advice Security Cloud" />
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-toggle.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="Css/base.css" rel="stylesheet" />
+    <link href="Css/azienda.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/GestioneMasterPage.js"></script>
+    <title>ASC | Azienda</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <script>
+        var _cookieConsent = {
+            resources: [
+                //personalizzazioni tasti cookies
+                { category: 'necessary', type: 'script' },
+                { category: 'statistics', type: 'script' },
+                { category: 'preferences', type: 'script' },
+                { category: 'marketing', type: 'iframe' },
+            ],
+
+            privacyPolicyUrl: 'Privacy.html', //link testuale
+
+            theme: {
+                //personalizzazione finestra, stile
+                borderSize: 1,
+                spacing: 10,
+                radius: 20,
+                bannerWidth: 230,
+                fontSize: 14,
+                lineHeight: 20,
+                headerFontSize: 22,
+                headerLineHeight: 28,
+                colors: [
+                 '#001d2e', // Colore di sfondo
+                 'white', // Colore testo
+                 '#FFF', // Colore link testuale e pulsanti accetta tutto/salva-Colore enabled pulsantini cookies e pallino not enabled
+                 '#001d2e', // Colore testo pulsanti accetta tutto/salva
+                 '#dfdfdf', // Colore hover pulsanti accetta tutto/salva-Colore hover enabled pulsantini cookies
+                 '#aec90b', // Colore pallino tasto necessary
+                 '#6c757dc9', // Colore sfondo pulsantini cookies not enabled/Bordi
+                 '#98aab4', // Colore hover pulsantini cookies not enabled
+                 '#aec90b', // Colore pallino pulsantini cookies enabled
+                ],
+            },
+
+            translations: {
+                //gestione cambio lingua
+                'message': {
+                    bannerTitle: 'Questo sito utilizza i cookies',
+                    bannerDescription: 'Usiamo i cookies per migliorare la tua esperienza di navigazione. Scegli quali tipologie di cookies ci permetti di utilizzare.',
+                    bannerOpenPrivacyPolicy: 'Vai alla policy',
+                    save: 'Salva',
+                    acceptAll: 'Accetta Tutto',
+                    necessary: 'Necessari',
+                    marketing: 'Marketing',
+                    preferences: 'Preferenze',
+                    statistics: 'Statistici',
+                    unclassified: 'Non classificati'
+                },
+            },
+        };
+    </script>
+    <script src="Scripts/cookieconsent.js"></script>
+    <script>
+        $(document).ready(function () {
+            CaricaMasterPage();
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="HeaderContainer"></div>
+
+    <div class="containerAzienda">
+        <div class="contHero">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <h1>Ci prendiamo cura dei tuoi dati</h1>
+                    <p>
+                        minimizzando i tempi di inattività
+                        e garantendo la loro piena integrità
+                    </p>
+                    <button onclick="location.href='#dati'" type="button">Scopri</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                    <div class="contImgAzienda">
+                        <img src="Images/immagine_azienda.jpg" alt="img" class="imgAzienda" id="dati">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerWhiteAzienda">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 leftSide">
+                <h1>PERCHÈ SCEGLIERE ASC</h1>
+                <p>ASC nasce da anni di esperienza sistemistica, incentrata
+                   sulla risoluzione e prevenzione dei problemi legati alle reti
+                   aziendali di computer.
+                <br />
+                <br />
+                   Siamo la scelta giusta per la gestione dei servizi cloud della
+                   tua azienda grazie alla nostra esperienza e competenza nel
+                   fornire soluzioni su misura, sicure e altamente performanti.
+                <br />
+                <br />
+                   Offriamo un supporto continuo, infrastrutture scalabili e una
+                   gestione proattiva per garantire sempre la massima efficienza e protezione dei dati.
+                <br />
+                <br />
+                   Con ASC, i clienti possono contare su un partner affidabile
+                   che ottimizza i costi, assicura la continuità operativa e facilita
+                   la trasformazione digitale, rendendo il cloud un vero motore di
+                   crescita per il business.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 rightSide">
+                <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 colGreenIcons">
+                    <img src="Images/icona_azienda1.png" alt="cloud" class="iconAzienda icon1">
+                    <p style="font-weight: 900;">Siamo affidabili</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 colGreenIcons">
+                        <img src="Images/icona_azienda2.png" alt="cloud" class="iconAzienda icon2">
+                        <p class="p1" style="font-weight: 900;">Sappiamo innovare</p>
+                    </div>
+                </div>
+                    <div class="row rightSideRow">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 colGreenIcons">
+                            <img src="Images/icona_azienda3.png" alt="cloud" class="iconAzienda icon3">
+                            <p class="p2" style="font-weight: 900;">Siamo esperti</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 colGreenIcons">
+                            <img src="Images/icona_azienda4.png" alt="cloud" class="iconAzienda icon4">
+                            <p class="p3" style="font-weight: 900;">Raggiungiamo l'obiettivo</p>
+                       </div>
+                  </div>
+              </div>
+         </div>
+     </div>
+
+    <!-- Footer -->
+    <div id="FooterContainer"></div>
+</body>
+</html>

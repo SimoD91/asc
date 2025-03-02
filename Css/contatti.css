@@ -1,0 +1,388 @@
+﻿.containerContatti {
+    background-color: #001d2e;
+}
+
+.contImgAzienda {
+    text-align: end;
+}
+
+.imgContatti {
+    max-width: 100%;
+    box-shadow: -1px 2px 3px black;
+}
+
+.contHero {
+    padding-bottom: 150px;
+}
+
+.contHero h1 {
+    max-width: 680px;
+}
+
+.contHero .button:hover {
+    color: white;
+}
+
+.containerBlueContatti {
+    overflow: hidden;
+}
+
+.containerBlueContatti p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 33px;
+    text-align: start;
+    margin-bottom: 0;
+    line-height: 1.2;
+    color: white;
+    max-width: 900px;
+    padding-left: 180px;
+    padding-bottom: 150px;
+}
+
+.arrow {
+    transform: scale(-1, 1) rotate(229deg);
+}
+
+.wrap-contact100 {
+    max-width: 470px;
+    background: linear-gradient(200deg, rgba(50, 50, 50, 1) 0%, rgba(10, 10, 10, 1) 100%);
+    text-align: center;
+    height: 620px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 3;
+    box-shadow: -1px 2px 3px black;
+}
+
+.input100 {
+    width: 94%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #001d2e;
+
+}
+
+.input100:focus, .inputTextArea:focus {
+    border: none;
+    outline: none;
+}
+
+.contact100-form-title {
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.inputTextArea {
+    height: 120px;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact100-form-btn {
+    width: 94%;
+    border: none;
+    background: linear-gradient(200deg, rgb(105, 105, 105) 0%, rgb(46, 46, 46) 100%);
+    color: white;
+    height: 65px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.contact100-form-btn:hover {
+    background-color: #5ea2bb;
+}
+
+.containerWhiteContatti {
+    background-color: white;
+    margin-top: -115px;
+    overflow: hidden;
+}
+
+.containerWhiteContatti > .row > .col-lg-6 {
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 30px;
+}
+
+iframe {
+    width: 87%;
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+@media screen and (max-width: 2244px) {
+    .contHero h1 {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 2118px) {
+    .contHero h1 {
+        font-size: 65px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .contHero h1 {
+        font-size: 50px;
+        max-width: 420px;
+    }
+}
+
+
+@media screen and (max-width: 1890px) {
+    .containerBlueContatti p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .arrow {
+        max-width: 99%;
+    }
+
+    .colArrow {
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 1660px) {
+    .contHero h1 {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 1606px) {
+    .contHero {
+        padding-bottom: 25px;
+    }
+
+    .containerBlueContatti p {
+        font-size: 24px;
+        padding-bottom: 0;
+        padding-left: 150px;
+    }
+
+    .containerWhiteContatti {
+        margin-top: -250px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 49px;
+    }
+}
+
+@media screen and (min-width: 1215px) and (max-width: 1660px) {
+    .contHero h1 {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 1458px) {
+    .contHero {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .containerBlueContatti p {
+        padding-left: 130px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 38px;
+    }
+}
+
+@media screen and (max-width: 1401px) {
+    .containerBlueContatti p {
+        padding-left: 120px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .containerBlueContatti p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contHero h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1089px) {
+    .contHero h1 {
+        max-width: 320px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 12px;
+        justify-content: start;
+        width: 757px;
+    }
+
+    .containerBlueContatti p {
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .containerBlueContatti p {
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .contact100-form-title, .contact100-form-btn {
+        font-size: 30px;
+    }
+
+    .colArrow {
+        max-width: 25%;
+    }
+
+
+    .wrap-contact100 {
+        margin-right: 15px;
+    }
+
+    .input100 {
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .wrap-contact100 {
+        height: 350px;
+        padding-top: 5px;
+        position: static;
+    }
+
+    .containerBlueContatti p {
+        padding-top: 60px;
+    }
+
+    .containerWhiteContatti {
+        margin-top: 40px;
+    }
+
+    iframe {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 100%;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        margin-left: 0;
+        padding-top: 40px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contHero h1 {
+        font-size: 30px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .contHero>.row>.col-lg-5 {
+        text-align: center;
+    }
+
+    .contHero h1 {
+        max-width: initial;
+    }
+
+    .contImgAzienda {
+        text-align: center;
+    }
+
+    .contHero {
+        padding-bottom: 25px;
+    }
+
+    .containerBlueContatti p{
+        padding-top: 0;
+        padding-left: 15px;
+    }
+
+    .containerWhiteContatti {
+        margin-top: 25px;
+    }
+
+    .containerWhiteContatti > .row > .col-lg-6 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .containerBlueContatti p {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .wrap-contact100 {
+        max-width: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .contHero {
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 425.9px) {
+    .containerBlueContatti p {
+        font-size: 18px;
+    }
+
+    .contHero {
+        padding-bottom: 15px;
+    }
+
+    .wrap-contact100 {
+        margin-top: 15px;
+    }
+
+    iframe {
+        height: 320px;
+    }
+}

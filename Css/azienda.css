@@ -1,0 +1,559 @@
+﻿.containerAzienda {
+    height: 100%;
+    background-color: #001d2e;
+    padding-bottom: 100px;
+}
+
+.contHero h1 {
+    line-height: 0.9;
+    font-size: 80px;
+    max-width: 580px;
+    text-align: start;
+}
+
+.contImgAzienda {
+    text-align: end;
+}
+
+.imgAzienda {
+    max-width: 100%;
+    box-shadow: -1px 2px 3px black;
+}
+
+.colGreenIcons {
+    text-align: start !important;
+}
+
+.containerWhiteAzienda {
+    background-color: white;
+    color: #001d2e;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.containerWhiteAzienda h1 {
+    padding-top: 100px;
+    font-size: 80px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+.containerWhiteAzienda p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 33px;
+    text-align: start;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+#dati {
+    scroll-margin-top: -640px;
+}
+
+
+.leftSide h1 {
+    padding-left: 200px;
+}
+
+.leftSide p {
+    max-width: 1000px;
+    padding-left: 300px;
+}
+
+.rightSide {
+    padding-top: 250px;
+}
+
+.rightSide p {
+    font-size: 45px;
+    width: 40%;
+    padding-top: 15px;
+}
+
+.rightSideRow {
+    padding-top: 65px;
+}
+
+.iconAzienda {
+    max-width: 200px;
+    max-height: 159px;
+}
+
+.rightSide>.row {
+    justify-content: center;
+}
+
+@media screen and (max-width: 2244px) {
+    .contHero h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 2024px) {
+    .leftSide h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 2105px) {
+    .contHero h1 {
+        font-size: 70px;
+        max-width: 490px;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .contHero h1 {
+        font-size: 50px;
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 1661px) and (max-width: 1920px) {
+    .contHero h1 {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 1853px) {
+    #dati {
+        scroll-margin-top: -550px;
+    }
+}
+
+@media screen and (max-width: 1738px) {
+    .leftSide h1 {
+        font-size: 55px;
+    }
+
+    .leftSide p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1660px) {
+    .contHero h1 {
+        font-size: 45px;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1623px) {
+    .leftSide h1 {
+        font-size: 50px;
+    }
+
+    .leftSide p {
+        font-size: 23px;
+    }
+
+    .iconAzienda {
+        max-width: 200px;
+        max-height: 159px;
+    }
+
+    .rightSide p {
+        font-size: 30px;
+    }
+
+    .rightSide {
+        padding-top: 190px;
+    }
+}
+
+@media screen and (max-width: 1606px) {
+    .containerAzienda {
+        padding-bottom: 25px;
+    }
+
+    .leftSide h1 {
+        padding-left: 150px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        font-size: 40px;
+    }
+
+    .leftSide p {
+        font-size: 21px;
+    }
+
+    .rightSide p {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .colGreenIcons {
+        text-align: center !important;
+    }
+
+    .iconAzienda {
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .rightSide {
+        padding-top: 110px;
+    }
+
+    .containerWhiteAzienda {
+        padding-bottom: 35px;
+    }
+
+    .icon1 {
+        max-width: 117px;
+    }
+
+    .icon3 {
+        max-width: 78px;
+    }
+
+    #dati {
+        scroll-margin-top: -450px;
+    }
+}
+
+@media screen and (max-width: 1523px) {
+    .leftSide p {
+        font-size: 20px;
+    }
+
+    .iconAzienda {
+        max-width: 150px;
+        max-height: 109px;
+    }
+
+    .rightSide {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .contHero h1 {
+        font-size: 45px;
+        max-width: 360px;
+    }
+
+    .contHero p {
+        font-size: 30px;
+    }
+
+    .leftSide h1 {
+        padding-left: 140px;
+    }
+
+    .leftSide p {
+        padding-left: 140px;
+    }
+
+    .rightSide {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1416.9px) {
+.leftSide h1, .leftSide p {
+    padding-left: 120px;
+}
+}
+
+@media screen and (max-width: 1401px) {
+    .leftSide h1 {
+        padding-left: 120px;
+    }
+
+    .leftSide p {
+        padding-left: 120px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contHero h1 {
+        font-size: 40px;
+        max-width: 360px;
+    }
+
+    .contHero p {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 1181.9px) {
+    .rightSide {
+        padding-top: 70px;
+    }
+}
+@media screen and (max-width: 1088.9px) {
+    .rightSide>.row {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .containerWhiteAzienda {
+        padding-bottom: 40px;
+    }
+
+    .rightSide {
+        padding-top: 70px;
+    }
+
+    .leftSide h1 {
+        padding-left: 12px;
+    }
+
+    .leftSide p {
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #dati {
+        scroll-margin-top: -300px;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .rightSide {
+        padding-right: 25px;
+    }
+
+    .leftSide p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contHero h1 {
+        font-size: 30px;
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .leftSide h1 {
+        font-size: 40px;
+    }
+
+    .leftSide p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 848px) {
+    .leftSide h1 {
+        font-size: 30px;
+    }
+
+    .rightSide p {
+        font-size: 21px;
+    }
+
+    .leftSide p {
+        font-size: 21.5px;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .contHero h1 {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 767.9px) {
+    .contHero h1 {
+        max-width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .contHero p {
+        font-size: 23px;
+    }
+
+    .rightSide {
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .leftSide h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .leftSide p {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 575.9px) {
+    .leftSide p {
+        padding-right: 12px;
+    }
+    
+    .rightSide {
+        padding-right: 0;
+        padding-top: 30px;
+    }
+
+    .rightSideRow {
+        padding-top: 10px;
+    }
+
+    .iconAzienda {
+        max-width: 124px;
+        max-height: 116px;
+    }
+
+    .p1 {
+        padding-left: 9px;
+    }
+
+    .p2 {
+        padding-left: 15px;
+    }
+
+    .colGreenIcons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 80px;
+    }
+
+    .icon2 {
+        padding-left: 14px;
+    }
+
+    .icon3 {
+        padding-left: 19px;
+    }
+
+    .icon4 {
+        padding-left: 21px;
+    }
+}
+
+@media screen and (max-width: 450.9px) {
+    .icon2 {
+        padding-left: 11px;
+    }
+
+    .icon3 {
+        padding-left: 15px;
+    }
+
+    .icon4 {
+        padding-left: 19px;
+    }
+
+    .colGreenIcons {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 425.9px) {
+    .contHero h1 {
+        font-size: 30px;
+    }
+
+    .contHero p {
+        font-size: 23px;
+    }
+
+    #dati {
+        scroll-margin-top: -180px;
+    }
+
+    .colGreenIcons {
+        padding-left: 20px;
+    }
+
+    .icon2 {
+        padding-left: 10px;
+    }
+
+    .icon3 {
+        padding-left: 17px;
+    }
+
+    .icon4 {
+        padding-left: 16px;
+    }
+
+    .leftSide p {
+        font-size: 16px;
+    }
+    
+    .containerAzienda {
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    #dati {
+        scroll-margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    #dati {
+        scroll-margin-top: -150px;
+    }
+
+    .rightSide p {
+        text-align: start;
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .icon1 {
+        margin-right: 15px;
+    }
+
+    .colGreenIcons {
+        padding-left: 20px;
+    }
+
+    .icon2 {
+        padding-right: 10px;
+    }
+
+    .icon3 {
+        padding-left: 0;
+    }
+
+    .icon4 {
+        padding-left: 20px;
+    }
+
+    .p1 {
+        padding-left: 5px;
+    }
+
+    .p2 {
+        padding-left: 21px;
+    }
+
+    .p3 {
+        padding-left: 4px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    #dati {
+        scroll-margin-top: -130px;
+    }
+}
+
+@media screen and (max-width: 320.9px) {
+    #dati {
+        scroll-margin-top: -112px;
+    }
+}

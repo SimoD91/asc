@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta name="description" content="ASC | Advice Security Cloud" />
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-toggle.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="Css/base.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/GestioneMasterPage.js"></script>
+    <title>ASC | Advice Security Cloud</title>
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <script>
+        var _cookieConsent = {
+            resources: [
+                //personalizzazioni tasti cookies
+                { category: 'necessary', type: 'script' },
+                { category: 'statistics', type: 'script' },
+                { category: 'preferences', type: 'script' },
+                { category: 'marketing', type: 'iframe' },
+            ],
+
+            privacyPolicyUrl: 'Privacy.html', //link testuale
+
+            theme: {
+                //personalizzazione finestra, stile
+                borderSize: 1,
+                spacing: 10,
+                radius: 20,
+                bannerWidth: 230,
+                fontSize: 14,
+                lineHeight: 20,
+                headerFontSize: 22,
+                headerLineHeight: 28,
+                colors: [
+                 '#001d2e', // Colore di sfondo
+                 'white', // Colore testo
+                 '#FFF', // Colore link testuale e pulsanti accetta tutto/salva-Colore enabled pulsantini cookies e pallino not enabled
+                 '#001d2e', // Colore testo pulsanti accetta tutto/salva
+                 '#dfdfdf', // Colore hover pulsanti accetta tutto/salva-Colore hover enabled pulsantini cookies
+                 '#aec90b', // Colore pallino tasto necessary
+                 '#6c757dc9', // Colore sfondo pulsantini cookies not enabled/Bordi
+                 '#98aab4', // Colore hover pulsantini cookies not enabled
+                 '#aec90b', // Colore pallino pulsantini cookies enabled
+                ],
+            },
+
+            translations: {
+                //gestione cambio lingua
+                'message': {
+                    bannerTitle: 'Questo sito utilizza i cookies',
+                    bannerDescription: 'Usiamo i cookies per migliorare la tua esperienza di navigazione. Scegli quali tipologie di cookies ci permetti di utilizzare.',
+                    bannerOpenPrivacyPolicy: 'Vai alla policy',
+                    save: 'Salva',
+                    acceptAll: 'Accetta Tutto',
+                    necessary: 'Necessari',
+                    marketing: 'Marketing',
+                    preferences: 'Preferenze',
+                    statistics: 'Statistici',
+                    unclassified: 'Non classificati'
+                },
+            },
+        };
+    </script>
+    <script src="Scripts/cookieconsent.js"></script>
+    <script>
+        $(document).ready(function () {
+            CaricaMasterPage();
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="HeaderContainer"></div>
+
+    <div class="containerIndex">
+        <div class="contHero">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <h1>Sistemi cloud tecnologici e sicuri</h1>
+                    <p>
+                        atti a migliorare l'efficienza
+                        aziendale, la protezione dei dati
+                        e la remotizzazione del lavoro
+                    </p>
+                    <button onclick="location.href='#sistemiCloud'" type="button">Scopri</button>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                    <div class="contVideo">
+                        <video class="scale" id="video" src="Videos/video_homepage.mp4" type="video/mp4" width="100%" autoplay loop muted></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerGrey">
+            <h1 id="sistemiCloud">I SERVIZI CLOUD</h1>
+            <div class="row rowTopIcons">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                    <img src="Images/icona_home_superiore.png" alt="cloud" class="iconaTop">
+                    <p style="font-weight: 900;">Server remoti</p>
+                    <p>in modalità private cloud</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                    <img src="Images/icona_home_superiore.png" alt="cloud" class="iconaTop">
+                    <p style="font-weight: 900;">Autenticazione</p>
+                    <p>con doppio passaggio</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                    <img src="Images/icona_home_superiore.png" alt="cloud" class="iconaTop">
+                    <p style="font-weight: 900;">Credenziali</p>
+                    <p>utenti crittografate</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 iconDiv">
+                    <img src="Images/icona_home_superiore.png" alt="cloud" class="iconaTop">
+                    <p style="font-weight: 900;">Backup</p>
+                    <p>dati geografico</p>
+                </div>
+            </div>
+        </div>
+        <div class="containerLightGrey">
+            <div class="row rowLightGrey">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h1 class="h1First">IL CLOUD</h1>
+                    <h1 class="h1Second">COMPUTING,</h1>
+                    <h1 class="h1Third">UNA RIVOLUZIONE!</h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="contImage">
+                        <img src="Images/immagine_homepage2.jpg" alt="img" class="imgHome">
+                        <p>
+                            Il cloud computing rappresenta un’autentica rivoluzione (soprattutto rispetto
+                            ai precedenti sistemi hosting e housing) per il mondo del lavoro
+                            (e non solo). Una rivoluzione determinata dalle sue cinque principali caratteristiche,
+                            che rappresentano le funzionalità messe a disposizione dal cloud.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerWhite">
+            <div class="row rowBottomIcons">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+                    <img src="Images/icona_home_inferiore1.png" alt="cloud" class="iconaBot">
+                    <p style="font-weight: bold;">Scalabilità</p>
+                    <p>Sono sistemi capaci
+                       di incrementare o di
+                       diminuire le prestazioni
+                       offerte unicamente in base
+                       a necessità o richieste
+                       specifiche.
+                       Il cloud computing
+                       è scalabile sia verso l’alto
+                       che verso il basso.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2">
+                    <img src="Images/icona_home_inferiore2.png" alt="cloud" class="iconaBot">
+                    <p style="font-weight: bold;">On demand</p>
+                    <p>
+                        I servizi offerti tramite
+                        cloud vengono erogati
+                        unicamente quando
+                        necessario.
+                        Questo significa sprechi
+                        e inefficienze vengono
+                        ridotte al minimo.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                    <img src="Images/icona_home_inferiore3.png" alt="cloud" class="iconaBot">
+                    <p style="font-weight: bold;">Autonomia</p>
+                    <p>
+                        I servizi offerti
+                        (come connettività
+                        e applicazioni) possono
+                        essere richiesti dall’utente
+                        in totale autonomia, senza
+                        dover passare per gestori
+                        e/o provider.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                    <img src="Images/icona_home_inferiore4.png" alt="cloud" class="iconaBot iconaAccess">
+                    <p style="font-weight: bold;">Accessibilità</p>
+                    <p>
+                        Grazie alla connessione
+                        da remoto, i servizi forniti
+                        tramite cloud computing
+                        possono essere fruiti
+                        in più luoghi, in ogni momento
+                        e da più dispositivi
+                        contemporaneamente.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                    <img src="Images/icona_home_inferiore5.png" alt="cloud" class="iconaBot">
+                    <p style="font-weight: bold;">Misurabilità</p>
+                    <p>
+                        Ogni servizio offerto -
+                        IaaS, PaaS e SaaS -
+                        può essere controllato
+                        in maniera del tutto
+                        autonoma e trasparente,
+                        così da misurare
+                        gli effettivi consumi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <div id="FooterContainer"></div>
+</body>
+</html>
