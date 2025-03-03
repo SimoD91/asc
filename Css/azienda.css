@@ -496,7 +496,7 @@
     }
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 409px) {
     #dati {
         scroll-margin-top: -140px;
     }
