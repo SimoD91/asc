@@ -1707,6 +1707,10 @@
       .contHero h1 {
         font-size: 40px;
       }
+
+      .contHero button {
+        margin-bottom: 20px;
+      }
   
       .contVideo {
           padding-bottom: 15px;

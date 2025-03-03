@@ -378,6 +378,10 @@ iframe {
         padding-bottom: 15px;
     }
 
+    .contHero .button {
+        margin-bottom: 20px;
+    }
+
     .wrap-contact100 {
         margin-top: 15px;
     }
@@ -385,4 +389,8 @@ iframe {
     iframe {
         height: 320px;
     }
+
+    .contHero h1 {
+        font-size: 40px;
+      }
 }
