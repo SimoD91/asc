@@ -1283,15 +1283,15 @@
 
   @media screen and (max-width: 876px) {
     a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     a#nav-link.nav-link.linknav:hover {
-        font-size: 9px !important;
+        font-size: 11px !important;
     }
 
     a#nav-link.nav-link.numberDiv {
-        font-size: 9px;
+        font-size: 11px;
     }
 }
   
@@ -1683,6 +1683,14 @@
           padding-left: 50px;
       }
   }
+
+  @media screen and (max-width: 428.9px) {
+    a#nav-link.nav-link.numberDiv {
+        font-size: 16px !important;
+        padding-left: 0 !important;
+        padding-right: 10px !important;
+        }
+  }
   
   @media screen and (max-width: 425.9px) {
       .imgLogoFooter {
@@ -1782,12 +1790,6 @@
   }
 
   @media screen and (max-width: 409.9px) {
-    a#nav-link.nav-link.numberDiv {
-    font-size: 16px !important;
-    padding-left: 0 !important;
-    padding-right: 10px !important;
-    }
-
     .contHero {
         padding-top: 95px;
     }
@@ -1846,6 +1848,12 @@
   .contHero p {
     font-size: 17px
   }
+}
+
+@media screen and (max-width: 341px) {
+    a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+        font-size: 9px;
+    }
 }
   
   @media screen and (max-width: 320px) {
