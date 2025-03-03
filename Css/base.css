@@ -1283,15 +1283,19 @@
 
   @media screen and (max-width: 876px) {
     a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
-        font-size: 11px;
+        font-size: 9px;
     }
 
     a#nav-link.nav-link.linknav:hover {
-        font-size: 11px !important;
+        font-size: 9px !important;
     }
 
     a#nav-link.nav-link.numberDiv {
-        font-size: 11px;
+        font-size: 9px;
+    }
+
+    a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+        font-size: 9px !important;
     }
 }
   
@@ -1447,24 +1451,32 @@
   
       a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus, a#nav-link.nav-link.numberDiv:active, a#nav-link.nav-link.numberDiv:focus {
           text-shadow: 1px 1px 10px #d3d3d3b5;
-          background-color: transparent;
       }
+      
+      a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
+        font-size: 11px;
+    }
 
-      a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
-          font-size: 20px;
-      }
+    a#nav-link.nav-link.numberDiv {
+        font-size: 11px;
+    }
 
       a#nav-link.nav-link.linknav:hover {
           padding-left: 20px !important;
           padding-right: 20px !important;
+          font-size: 11px !important;
       }
+
+      a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+        font-size: 11px !important;
+    }
   
       .contHero>.row>.col-lg-4 {
           text-align: center;
       }
   
       .contHero {
-          padding-top: 120px;
+          padding-top: 130px;
       }
   
       .contHero h1 {
@@ -1690,6 +1702,10 @@
         padding-left: 0 !important;
         padding-right: 10px !important;
         }
+
+        .contHero {
+            padding-top: 95px;
+        }
   }
   
   @media screen and (max-width: 425.9px) {
@@ -1788,12 +1804,6 @@
         font-size: 33px;
     }
   }
-
-  @media screen and (max-width: 409.9px) {
-    .contHero {
-        padding-top: 95px;
-    }
-  }
   
   @media screen and (max-width: 388px) {
        h1.h1First {
@@ -1850,9 +1860,17 @@
   }
 }
 
-@media screen and (max-width: 341px) {
+@media screen and (max-width: 342.9px) {
     a#nav-link.nav-link.linknav, a#nav-link.nav-link.active.linknav, a#nav-link.nav-link.linknav:active, a#nav-link.nav-link.linknav:focus {
         font-size: 9px;
+    }
+
+    a#nav-link.nav-link.linknav:hover {
+        font-size: 9px !important;
+    }
+
+    a#nav-link.nav-link.linknav:hover, a#nav-link.nav-link.active.linknav:hover {
+        font-size: 9px !important;
     }
 }
   
