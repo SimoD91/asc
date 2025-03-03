@@ -1718,7 +1718,7 @@
       }
   
       .containerLightGrey p {
-          font-size: 18px;
+          font-size: 16px;
           text-align: start;
       }
   
@@ -1736,7 +1736,7 @@
       }
 
       .contHero p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .h1First, .h1Second, .h1Third {
@@ -1836,9 +1836,10 @@
     .contHero h1 {
         font-size: 35px;
   }
-}
 
-@media screen and (max-width: 328.9px) {
+  .contHero p {
+    font-size: 17px
+  }
 }
   
   @media screen and (max-width: 320px) {

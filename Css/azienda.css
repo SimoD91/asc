@@ -464,7 +464,7 @@
     }
 
     .contHero p {
-        font-size: 23px;
+        font-size: 18px;
     }
 
     #dati {
@@ -549,6 +549,12 @@
 @media screen and (max-width: 350px) {
     #dati {
         scroll-margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 320.9px) {
+    .contHero h1 {
+        font-size: 35px;
     }
 }
 
